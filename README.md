@@ -1,101 +1,71 @@
-# Hi, I'm Zero 👋
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Smart+Contract+Developer;DeFi+Protocol+Builder;Blockchain+Security+Focus)](https://git.io/typing-svg)
+# ⚡ 0xBreak
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=E8B04B&center=true&vCenter=true&width=620&lines=EVM+Security+Researcher;Smart+Contract+Engineer;On-chain+Forensics+%26+Fund+Tracing;Rust+Security+Tooling)](https://github.com/0xBreak)
+
+**I hunt vulnerabilities in the EVM before anyone else does.**
+Opcode-level bytecode analysis · selector dispatcher reversing · stolen-fund tracing
+
+[![Telegram](https://img.shields.io/badge/Telegram-@0xBreak-111013?style=flat-square&logo=telegram&logoColor=E8B04B)](https://t.me/OxBreak)
+[![X](https://img.shields.io/badge/X-@0xBreak-111013?style=flat-square&logo=x&logoColor=E8B04B)](https://x.com/0xBreak)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0xbreak-111013?style=flat-square&logo=linkedin&logoColor=E8B04B)](https://www.linkedin.com/in/0xbreak/)
+[![Email](https://img.shields.io/badge/Email-workzero02@gmail.com-111013?style=flat-square&logo=gmail&logoColor=E8B04B)](mailto:workzero02@gmail.com)
+
+🟢 Remote · available any time, any timezone · open for audits, freelance & hire
 
 </div>
 
-## 🛠️ Tech Stack
+---
 
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## 🔍 Security Research
 
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logoColor=black)
-![Alchemy](https://img.shields.io/badge/Alchemy-3C3C3D?style=for-the-badge)
-![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white)
+| Case | Type | Result |
+|---|---|---|
+| **Kelp DAO** | Forensics | LayerZero bridge exploit ($293M) — traced $236M across 6 attacker wallets; Arbitrum froze 30,766 ETH |
+| **Ostium Protocol** | Forensics | ~$26M traced across a 30+ wallet network via Tornado Cash, Metamask Bridge & Across |
+| [**Intuition Protocol**](https://github.com/0xBreak/IntuitionAudit-08-03-2026) | Audit | Medium — bridge fee computed from `minTrustOut` before swap; Foundry PoC + fix |
+| [**PuppyRaffle**](https://github.com/0xBreak/RuffleAudit) | Audit | 3 High · 2 Medium · 1 Low — reentrancy, O(n²) DoS, weak randomness |
+| **Fake-interview malware** | Reverse engineering | Second-stage payload hidden via SVG steganography in a "skill test" repo — deobfuscated & published |
 
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Arbitrum](https://img.shields.io/badge/Arbitrum-28A0F0?style=for-the-badge&logo=arbitrum&logoColor=white)
-![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=for-the-badge&logo=optimism&logoColor=white)
+## 🛠 Featured Projects
 
-## 📊 GitHub Stats
+| Project | What it is | Stack |
+|---|---|---|
+| [**ChainGuard**](https://github.com/0xBreak/ChainGuard) | On-chain compliance firewall: the token itself refuses transfers to hackers, drainers & sanctioned addresses. 10K+ labelled addresses, 2-of-3 committee, registry synced across 2 chains in ~4 s · [demo](https://chain-guard-frontend.vercel.app) | Solidity · Foundry · Arbitrum · Robinhood Chain |
+| [**0xBreak-Engine**](https://github.com/0xBreak/InvariantTools) | Black-box EVM fuzzer & gas-anomaly detector | Rust · alloy · tokio |
+| [**Kalkan**](https://github.com/0xBreak/Kalkan) | Free address risk checker & exit-scam early warning: 7 scam-flag sources, fund-flow graph, reserve alerts | Python · FastAPI · Zerion |
+| [**ShadowBounty**](https://github.com/0xBreak/NewMoon) | Confidential bug-disclosure registry — commit to a report without revealing it, disclose only severity | Midnight · Compact · ZK |
+| [**CrossChain Rebase Token**](https://github.com/0xBreak/learnCrossChain) | Rebase token with vault yield, bridged via CCIP | Solidity · Chainlink CCIP |
+| [**Payment Tracker**](https://github.com/0xBreak/stellar-yellow) | Multi-wallet dApp on two Soroban contracts, 19 tests, CI · [demo](https://stellar-yellow.vercel.app/) | Rust · Soroban |
 
-<div align="center">
+## ⚙️ Stack
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=0xBreak&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xBreak&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=0xBreak&theme=tokyonight&hide_border=true&background=0d1117"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=0xBreak&theme=tokyo-night&hide_border=true&bg_color=0d1117"/>
-
-</div>
-
-## 🎯 What I Do
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-contract WhatIDo {
-    string[] public focus = [
-        "Writing secure, gas-optimized smart contracts",
-        "Building DeFi protocols and AMMs",
-        "Auditing contracts for vulnerabilities",
-        "Layer 2 solutions and cross-chain development"
-    ];
-    
-    uint256 public experience = 2; // years
-    bool public openToCollaboration = true;
-    
-    function approach() public pure returns (string memory) {
-        return "Clean code. Security first. Gas efficiency matters.";
-    }
-}
+```
+core      Solidity (+ Yul) · Foundry (forge / cast / anvil)
+evm       bytecode & opcodes · storage layout · Heimdall · Panoramix · evm-disasm
+tooling   Rust · Python · TypeScript · Go
+infra     Alchemy · QuickNode · Zerion · Chainlink (VRF / Automation / CCIP) · Helios · Erigon
+networks  Ethereum · Arbitrum · Optimism · Base · Polygon · zkSync · Robinhood Chain · Stellar · Midnight
 ```
 
-## 💼 Work Philosophy
+## 🎓 Certificates
 
-- **Security First:** Every line of code is written with potential vulnerabilities in mind
-- **Gas Optimization:** Efficient contracts save users real money
-- **Clean Code:** Readable, maintainable, well-documented contracts
-- **Testing:** Comprehensive test coverage with Foundry/Hardhat
-- **Open Source:** Contributing to the ecosystem and learning from the community
-
-## 📈 Contribution Activity
-
-- 🔄 **Consistent commits** - Building in public, shipping regularly
-- 🔍 **Code reviews** - Contributing to open-source DeFi protocols
-- 📚 **Documentation** - Writing guides and sharing knowledge
-- 🐛 **Bug fixes** - Finding and fixing security issues
-- ⚡ **Optimization** - Improving gas efficiency in existing contracts
-
-## 🤝 Let's Connect
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:workzero02@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/OxBreak)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/0xBreak)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zero-web3-984454346)
+- **Stellar Journey to Mastery** — Rise In × Stellar · 2026 · [verify](https://www.risein.com/certificates/0bxoFGol)
+- **Crypto: From A to Z** — Binance Academy · 2026
+- **B4Y Certificate** — Bitget · 2026
+- **Advanced Foundry** — Cyfrin Updraft · 2026 · [verify](https://profiles.cyfrin.io/u/0xbreak/achievements/advanced-foundry)
+- **Foundry Fundamentals** — Cyfrin Updraft · 2025 · [verify](https://profiles.cyfrin.io/u/0xbreak/achievements/foundry)
+- **Solidity Smart Contract Development** — Cyfrin Updraft · 2025 · [verify](https://profiles.cyfrin.io/u/0xbreak/achievements/solidity)
 
 ---
 
 <div align="center">
 
-**"Building decentralized infrastructure, one secure contract at a time"**
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xBreak&layout=compact&theme=transparent&hide_border=true&title_color=E8B04B&text_color=A8A5A0&langs_count=6"/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ZeroNewLife&color=blue&style=flat-square)
+<sub>// funds were harmed, attacker wasn't (yet)</sub>
+
+![Profile Views](https://komarev.com/ghpvc/?username=0xBreak&color=E8B04B&style=flat-square&label=views)
 
 </div>
